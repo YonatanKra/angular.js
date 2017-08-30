@@ -37,7 +37,7 @@ AngularJS expressions are like JavaScript expressions with the following differe
     even inside `ng-init` directive.
 
   * **No RegExp Creation With Literal Notation:** You cannot create regular expressions
-    in an AngularJS expression.
+    in an AngularJS expression except in {@link ngPattern `ng-pattern`}.
 
   * **No Object Creation With New Operator:** You cannot use `new` operator in an AngularJS expression.
 
